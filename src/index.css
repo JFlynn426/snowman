@@ -28,9 +28,12 @@ ul {
   margin: 0 3vw 0 3vw;
 }
 .letters li {
+  display: flex;
+  flex-flow: wrap;
   list-style: none;
   padding: 0.6vw;
   font-size: 3vw;
   border: 0.3vw solid lightblue;
   color: darkblue;
+  cursor: pointer;
 }
